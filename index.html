@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Sumit Chavan's developer portfolio, projects and skills.">
+
+    <title>Sumit Chavan | Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Sumit Portfolio<span>.</span></a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-contact">Contact Me ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero container" id="home">
+
+            <div class="hero-content reveal">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    Computer Engineering Student
+                </div>
+
+                <p class="eyebrow">HELLO, I'M</p>
+
+                <h1>Sumit <span>Chavan.</span></h1>
+
+                <h2>
+                    Aspiring Developer &amp;
+                    <span class="gradient-text">Problem Solver</span>
+                </h2>
+
+                <p class="hero-description">
+                    I build responsive websites, explore new technologies
+                    and turn ideas into useful digital experiences.
+                    Currently learning and building projects with
+                    Python, Django and modern web technologies.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work ↗
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Let's Connect
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="https://github.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+
+                    <a href="https://www.linkedin.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="image-glow"></div>
+
+                <div class="profile-card">
+                    <img
+                        src="images/Sumit_ProfileImage.png"
+                        alt="Sumit Chavan"
+                        class="profile-image"
+                    >
+                </div>
+
+                <div class="floating-card floating-top">
+                    <span class="floating-icon">&lt;/&gt;</span>
+                    <div>
+                        <strong>Web Development</strong>
+                        <small>Building &amp; learning</small>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-bottom">
+                    <span class="floating-icon">✦</span>
+                    <div>
+                        <strong>Always Learning</strong>
+                        <small>One project at a time</small>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span class="gradient-text">Me</span></h2>
+                    <p>A little about who I am and what I do.</p>
+                </div>
+
+                <div class="about-card reveal">
+                    <div class="about-mark">SC<span>.</span></div>
+
+                    <div>
+                        <h3>Learning today. Building for tomorrow.</h3>
+
+                        <p>
+                            I'm Sumit Chavan, a Computer Engineering student
+                            interested in web development and software
+                            engineering. I enjoy creating websites,
+                            experimenting with Python and Django, and
+                            learning how real-world applications work.
+                        </p>
+
+                        <p>
+                            My goal is to become a skilled developer,
+                            contribute to meaningful projects and
+                            continuously improve my technical skills.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Get in touch ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">WHAT I WORK WITH</p>
+                    <h2>My <span class="gradient-text">Skills</span></h2>
+                    <p>Technologies I'm learning and using in projects.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card reveal">
+                        <span class="skill-number">01</span>
+                        <h3>Frontend</h3>
+                        <p>HTML · CSS · JavaScript · Bootstrap</p>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-number">02</span>
+                        <h3>Programming</h3>
+                        <p>Python · Java · C · C++</p>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-number">03</span>
+                        <h3>Backend</h3>
+                        <p>Django · SQL · SQLite</p>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-number">04</span>
+                        <h3>Tools &amp; Exploring</h3>
+                        <p>Git · GitHub · VS Code · AI/ML basics</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">WHAT I'VE BEEN BUILDING</p>
+                    <h2>Featured <span class="gradient-text">Projects</span></h2>
+                    <p>Some projects from my development journey.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal">
+                        <div class="project-visual project-one">
+                            <span>01 / WEB DEVELOPMENT</span>
+                            <div class="project-symbol">CP.</div>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-type">BUSINESS WEBSITE</p>
+                            <h3>ChavanPheta</h3>
+                            <p>
+                                A website concept for a traditional
+                                Maharashtrian pheta business, designed
+                                to showcase products and connect with
+                                potential customers.
+                            </p>
+
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="https://chavan-pheta.onrender.com/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="text-link">
+                                View Website ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-visual project-two">
+                            <span>02 / DJANGO</span>
+                            <div class="project-symbol">&lt;/&gt;</div>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-type">DEVELOPER TOOL</p>
+                            <h3>AI Project Doctor</h3>
+                            <p>
+                                A project-analysis tool concept that
+                                examines uploaded project files and
+                                presents useful checks and a project
+                                health summary.
+                            </p>
+
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>HTML/CSS</span>
+                            </div>
+
+                            <a href="#contact" class="text-link">
+                                Ask About Project ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-visual project-three">
+                            <span>03 / LEARNING PROJECT</span>
+                            <div class="project-symbol">EDU.</div>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-type">WEB APPLICATION</p>
+                            <h3>EduAI</h3>
+                            <p>
+                                An educational web application project
+                                built while practising Django,
+                                authentication and database integration.
+                            </p>
+
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>SQLite</span>
+                            </div>
+
+                            <a href="#contact" class="text-link">
+                                Ask About Project ↗
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="contact-card reveal">
+                    <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+
+                    <h2>Let's build something<br>
+                        <span class="gradient-text">meaningful.</span>
+                    </h2>
+
+                    <p>
+                        Interested in a website, collaboration or
+                        discussing a project? Feel free to reach out.
+                    </p>
+
+                    <!-- Replace with your real email -->
+                    <a href="mailto:your-email@example.com"
+                       class="btn btn-primary">
+                        Email Me ↗
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo"><span></span></a>
+
+            <p>
+                © <span id="year"></span> Sumit Chavan.
+                Built with curiosity and code.
+            </p>
+*
+            <a href="#home" class="back-top">Back to top ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>
