@@ -722,3 +722,39 @@ a {
         animation-duration: 0.01ms !important;
     }
 }
+
+/* Footer styling */
+.site-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 24px 20px;
+    border-top: 1px solid #252530;
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 0;
+    color: #a1a1b5;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.site-footer a {
+    color: #a1a1b5;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.site-footer a:hover {
+    color: #a78bfa;
+}
+
+/* Mobile responsive */
+@media (max-width: 576px) {
+    .site-footer {
+        padding: 22px 16px;
+    }
+}
